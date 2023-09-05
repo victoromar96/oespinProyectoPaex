@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="oespinProyectoPaex.Reporte">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblUsuario" FontSize="14" HorizontalTextAlignment="End" TextColor="Blue"></Label>
+            <Label Text="Este programa fue hecho por el chavo del 8" FontSize="14" HorizontalTextAlignment="End" TextColor="Blue"></Label>
+
+            <Button x:Name="txtVentanaUsuario" Text="Lista Usuarios SQLITE" Clicked="txtVentanaUsuario_Clicked"></Button>
+            <Button x:Name="txtVentanaEstudiante" Text="Lista Estudiantes MYSQL" Clicked="txtVentanaEstudiante_Clicked"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
