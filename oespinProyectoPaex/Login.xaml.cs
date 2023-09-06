@@ -33,6 +33,8 @@ namespace oespinProyectoPaex
 
         private void btnIniciar_Clicked(object sender, EventArgs e)
         {
+
+            String usuario = txtUsuario.Text;
             try
             {
                 //accedo a la ruta donde esta la base de datos
@@ -45,7 +47,7 @@ namespace oespinProyectoPaex
 
                 if (resultado.Count() > 0)
                 {
-                    Navigation.PushAsync(new Reporte());
+                    Navigation.PushAsync(new Reporte(txtUsuario.Text));
                 }
                 else
                 {

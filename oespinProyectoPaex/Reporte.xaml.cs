@@ -12,11 +12,12 @@ namespace oespinProyectoPaex
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Reporte : ContentPage
     {
-        public Reporte()
+        public Reporte(string usuario)
         {
             InitializeComponent();
+            lblUsuario.Text = "usuario conectado: " + usuario;
 
-            
+
         }
 
         private void txtVentanaUsuario_Clicked(object sender, EventArgs e)
@@ -26,7 +27,7 @@ namespace oespinProyectoPaex
 
         private void txtVentanaEstudiante_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new ListaEstudiantes());
         }
     }
 }

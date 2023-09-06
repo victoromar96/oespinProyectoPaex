@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="oespinProyectoPaex.RegistrarEstudiante">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registrar Estudiante Universitario" FontSize="24" HorizontalTextAlignment="Center"></Label>
+            <Entry x:Name="txtID" Placeholder="ID"></Entry>
+            <Entry x:Name="txtNombre" Placeholder="Nombre"></Entry>
+            <Entry x:Name="txtApellido" Placeholder="Apellido"></Entry>
+            <Entry x:Name="txtEdad" Placeholder="Edad"></Entry>
+            <Entry x:Name="txtCorreo" Placeholder="Correo"></Entry>
+            <Entry x:Name="txtCelular" Placeholder="Celular"></Entry>
+            <Entry x:Name="txtEstadoCivil" Placeholder="Estado Civil"></Entry>
+            <Entry x:Name="txtTipoSangre" Placeholder="Tipo Sangre"></Entry>
+            
+            <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
