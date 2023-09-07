@@ -4,8 +4,9 @@
              x:Class="oespinProyectoPaex.ListaEstudiantes">
     <ContentPage.Content>
 
+        
         <StackLayout>
-
+            <Label Text="Lista De Estudiantes" FontSize="24" HorizontalTextAlignment="Center"></Label>
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition>

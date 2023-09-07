@@ -4,7 +4,7 @@
              x:Class="oespinProyectoPaex.ConsultarRegistro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Lista de estudiantes " FontSize="20" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Lista De Usuarios " FontSize="20" HorizontalTextAlignment="Center"></Label>
             <ListView x:Name="ListaEstudiante" ItemSelected="ListaEstudiante_ItemSelected_1">
                 <ListView.ItemTemplate>
                     <DataTemplate>

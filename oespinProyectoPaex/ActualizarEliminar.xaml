@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Actualizar - Eliminar" FontSize="24" HorizontalTextAlignment="Center"></Label>
-            <Entry x:Name="txtID"></Entry>
+            <Entry x:Name="txtID"  Keyboard="Numeric"></Entry>
             <Entry x:Name="txtNombre"></Entry>
             <Entry x:Name="txtApellido"></Entry>
             <Entry x:Name="txtEdad"></Entry>

@@ -25,6 +25,7 @@ namespace oespinProyectoPaex
                 WebClient cliente = new WebClient();
                 //contenenedor de una coleccion para  guardar temporalmente los datos 
                 var parametros = new System.Collections.Specialized.NameValueCollection();
+                var parametros2 = new System.Collections.Specialized.NameValueCollection();
 
                 //agrego los datos 
                 parametros.Add("codigo", txtID.Text);
@@ -35,8 +36,14 @@ namespace oespinProyectoPaex
                 parametros.Add("celular", txtCelular.Text);
                 parametros.Add("estadoCivil", txtEstadoCivil.Text);
                 parametros.Add("tipoSangre", txtTipoSangre.Text);
+                //post2
+
+                
+
+                
 
                 cliente.UploadValues("http://192.168.17.45/oespin/post.php", "POST", parametros);
+             
                 DisplayAlert("Alerta", "Ingreso correcto", "Cerrar");
 
                 Navigation.PushAsync(new ListaEstudiantes());

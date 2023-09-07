@@ -4,10 +4,10 @@
              x:Class="oespinProyectoPaex.Registro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Regisrto de Estudiantes" FontSize="24" HorizontalTextAlignment="Center" ></Label>
+            <Label Text="Regisrto de Usuarios" FontSize="24" HorizontalTextAlignment="Center" ></Label>
             <Entry x:Name="txtNombre" Placeholder="Nombre"></Entry>
             <Entry x:Name="txtUsuario" Placeholder="Usuario"></Entry>
-            <Entry x:Name="txtContrasena" Placeholder="COntraseña"></Entry>
+            <Entry x:Name="txtContrasena" Placeholder="COntraseña" IsPassword="True"></Entry>
             
             
 

@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Registrar Estudiante Universitario" FontSize="24" HorizontalTextAlignment="Center"></Label>
-            <Entry x:Name="txtID" Placeholder="ID"></Entry>
+            <Entry x:Name="txtID" Placeholder="ID" Keyboard="Numeric"></Entry>
             <Entry x:Name="txtNombre" Placeholder="Nombre"></Entry>
             <Entry x:Name="txtApellido" Placeholder="Apellido"></Entry>
             <Entry x:Name="txtEdad" Placeholder="Edad"></Entry>
@@ -13,6 +13,7 @@
             <Entry x:Name="txtCelular" Placeholder="Celular"></Entry>
             <Entry x:Name="txtEstadoCivil" Placeholder="Estado Civil"></Entry>
             <Entry x:Name="txtTipoSangre" Placeholder="Tipo Sangre"></Entry>
+            
             
             <Button x:Name="btnGuardar" Text="Guardar" Clicked="btnGuardar_Clicked"></Button>
         </StackLayout>
